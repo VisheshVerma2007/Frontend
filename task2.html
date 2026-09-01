@@ -1,0 +1,224 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f7fb;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        /* Element Selector */
+        header {
+            background-color: #172554;
+            color: white;
+            text-align: center;
+            padding: 35px 20px;
+        }
+
+        h1 {
+            font-size: 40px;
+        }
+
+        h2 {
+            color: #172554;
+            margin-bottom: 15px;
+        }
+
+        main {
+            width: 90%;
+            max-width: 1000px;
+            margin: 30px auto;
+        }
+
+        /* Class Selector */
+        .about {
+            background-color: white;
+            padding: 30px;
+            margin-bottom: 25px;
+            border-radius: 12px;
+        }
+
+        .mission {
+            background-color: rgb(239, 246, 255);
+            padding: 30px;
+            margin-bottom: 25px;
+            border-radius: 12px;
+        }
+
+        /* ID Selector */
+        #main-heading {
+            color: #2563eb;
+            font-size: 30px;
+        }
+
+        .lists {
+            display: flex;
+            gap: 25px;
+            margin-bottom: 25px;
+        }
+
+        .movies,
+        .cities {
+            background-color: white;
+            padding: 30px;
+            border-radius: 12px;
+            flex: 1;
+        }
+
+        /* Ordered List */
+        .movies ol {
+            padding-left: 25px;
+        }
+
+        .movies li {
+            margin: 10px 0;
+            color: #1d4ed8;
+        }
+
+        /* Unordered List */
+        .cities ul {
+            list-style-type: square;
+            padding-left: 25px;
+        }
+
+        .cities li {
+            margin: 10px 0;
+            color: rgb(22, 101, 52);
+        }
+
+        /* Pseudo-class Selector */
+        li:hover {
+            color: #dc2626;
+            cursor: pointer;
+        }
+
+        .contact {
+            background-color: white;
+            padding: 30px;
+            border-radius: 12px;
+            margin-bottom: 25px;
+        }
+
+        .contact a {
+            color: #2563eb;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Pseudo-class Selector */
+        .contact a:hover {
+            color: #dc2626;
+            text-decoration: underline;
+        }
+
+        footer {
+            background-color: #172554;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media (max-width: 700px) {
+            .lists {
+                flex-direction: column;
+            }
+
+            h1 {
+                font-size: 32px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>About Us</h1>
+        <p>Learn, Create and Grow Together</p>
+    </header>
+
+    <main>
+
+        <section class="about">
+            <h2 id="main-heading">Who We Are</h2>
+
+            <p>
+                We are a group of passionate students who enjoy learning
+                technology, developing websites and exploring new ideas.
+            </p>
+
+            <p>
+                Our goal is to improve our technical skills by creating
+                practical and creative projects.
+            </p>
+        </section>
+
+        <section class="mission">
+            <h2>Our Mission</h2>
+
+            <p>
+                Our mission is to continuously learn new technologies,
+                build useful projects and develop strong problem-solving skills.
+            </p>
+        </section>
+
+        <section class="lists">
+
+            <div class="movies">
+                <h2>Favourite Movies</h2>
+
+                <ol>
+                    <li>Interstellar</li>
+                    <li>3 Idiots</li>
+                    <li>Avengers: Endgame</li>
+                    <li>Inception</li>
+                    <li>Spider-Man: No Way Home</li>
+                </ol>
+            </div>
+
+            <div class="cities">
+                <h2>Favourite Cities</h2>
+
+                <ul>
+                    <li>Delhi</li>
+                    <li>Mumbai</li>
+                    <li>Jaipur</li>
+                    <li>Bengaluru</li>
+                    <li>Varanasi</li>
+                </ul>
+            </div>
+
+        </section>
+
+        <section class="contact">
+            <h2>Contact Us</h2>
+
+            <p>Email: vishesh@example.com</p>
+
+            <p>
+                <a href="#">Visit Our Website</a>
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 About Us. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
+```
