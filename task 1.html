@@ -1,0 +1,324 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishesh Verma - Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f7fb;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #172554;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        header h1 {
+            font-size: 40px;
+        }
+
+        header p {
+            font-size: 18px;
+            margin-top: 5px;
+        }
+
+        nav {
+            margin-top: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 12px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #93c5fd;
+        }
+
+        main {
+            width: 90%;
+            max-width: 1100px;
+            margin: 30px auto;
+        }
+
+        section {
+            background-color: white;
+            padding: 30px;
+            margin-bottom: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        }
+
+        section h2 {
+            color: #172554;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #3b82f6;
+            padding-bottom: 8px;
+        }
+
+        figure {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        figure img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+        }
+
+        figcaption {
+            margin-top: 8px;
+            font-style: italic;
+            color: #555;
+        }
+
+        article {
+            margin-bottom: 15px;
+        }
+
+        article h3 {
+            color: #2563eb;
+            margin-bottom: 5px;
+        }
+
+        ul {
+            padding-left: 25px;
+        }
+
+        li {
+            margin: 8px 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        th,
+        td {
+            border: 1px solid #ccc;
+            padding: 12px;
+            text-align: center;
+        }
+
+        thead {
+            background-color: #172554;
+            color: white;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #eff6ff;
+        }
+
+        tbody tr:hover {
+            background-color: #dbeafe;
+        }
+
+        footer {
+            background-color: #172554;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media (max-width: 768px) {
+            nav a {
+                display: inline-block;
+                margin: 5px;
+            }
+
+            table {
+                font-size: 12px;
+            }
+
+            th,
+            td {
+                padding: 7px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Vishesh Verma</h1>
+        <p>B.Tech Computer Science & Engineering Student</p>
+
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#projects">Projects</a>
+            <a href="#timetable">Timetable</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="about">
+            <h2>About Me</h2>
+
+            <figure>
+                <img src="https://via.placeholder.com/180" alt="Profile photo">
+                <figcaption>Vishesh Verma - Computer Science Student</figcaption>
+            </figure>
+
+            <article>
+                <p>
+                    Hello! I am Vishesh Verma, a Computer Science and
+                    Engineering student interested in programming,
+                    web development and problem solving.
+                </p>
+
+                <p>
+                    I enjoy learning new technologies and building
+                    practical projects using programming and web technologies.
+                </p>
+            </article>
+        </section>
+
+        <section id="skills">
+            <h2>My Skills</h2>
+
+            <ul>
+                <li>Java</li>
+                <li>C Programming</li>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>Object Oriented Programming</li>
+                <li>Git & GitHub</li>
+            </ul>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+
+            <article>
+                <h3>B.Tech - Computer Science & Engineering</h3>
+                <p>
+                    Currently pursuing Bachelor of Technology in
+                    Computer Science and Engineering.
+                </p>
+            </article>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+
+            <article>
+                <h3>Personal Portfolio</h3>
+                <p>
+                    A personal portfolio website created using
+                    HTML5 and CSS3.
+                </p>
+            </article>
+
+            <article>
+                <h3>Java Programming Projects</h3>
+                <p>
+                    Programming projects based on arrays, strings,
+                    loops and object-oriented programming.
+                </p>
+            </article>
+        </section>
+
+        <section id="timetable">
+            <h2>Academic Timetable</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Day</th>
+                        <th>9:00 - 10:00</th>
+                        <th>10:00 - 11:00</th>
+                        <th>11:00 - 12:00</th>
+                        <th>12:00 - 1:00</th>
+                        <th>2:00 - 3:00</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Monday</td>
+                        <td>Java</td>
+                        <td>Mathematics</td>
+                        <td>DBMS</td>
+                        <td>Break</td>
+                        <td>Web Development</td>
+                    </tr>
+
+                    <tr>
+                        <td>Tuesday</td>
+                        <td>Data Structures</td>
+                        <td>Java</td>
+                        <td>Operating Systems</td>
+                        <td>Break</td>
+                        <td>Web Development</td>
+                    </tr>
+
+                    <tr>
+                        <td>Wednesday</td>
+                        <td>Mathematics</td>
+                        <td>DBMS</td>
+                        <td>Java Lab</td>
+                        <td>Break</td>
+                        <td>Data Structures</td>
+                    </tr>
+
+                    <tr>
+                        <td>Thursday</td>
+                        <td>Operating Systems</td>
+                        <td>Java</td>
+                        <td>Mathematics</td>
+                        <td>Break</td>
+                        <td>DBMS</td>
+                    </tr>
+
+                    <tr>
+                        <td>Friday</td>
+                        <td>Web Development</td>
+                        <td>Data Structures</td>
+                        <td>DBMS</td>
+                        <td>Break</td>
+                        <td>Java Lab</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+
+            <p>Email: vishesh@example.com</p>
+            <p>GitHub: github.com/visheshverma</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Vishesh Verma. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
+```
